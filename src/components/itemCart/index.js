@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { CartContext } from "../contexts/cartContext";
+import { CartContext } from "../../contexts/cartContext";
 
 export default function ItemCart({ img, itemIndex, title, price }) {
   const { handleRemoveItem } = useContext(CartContext);

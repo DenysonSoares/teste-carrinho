@@ -1,5 +1,5 @@
-import { CartProvider } from "../components/contexts/cartContext";
 import Header from "../components/header";
+import { CartProvider } from "../contexts/cartContext";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {

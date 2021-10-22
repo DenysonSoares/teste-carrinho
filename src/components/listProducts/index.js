@@ -1,5 +1,6 @@
 import { useContext, useMemo } from "react";
-import { CartContext } from "../contexts/cartContext";
+import { CartContext } from "../../contexts/cartContext";
+
 import Product from "../product";
 
 export default function Produtos() {
@@ -8,8 +9,6 @@ export default function Produtos() {
   const listProdutos = useMemo(() => {
     return produtos?.items || [];
   }, [produtos]);
-
-  console.log("Produtos", listProdutos);
 
   return (
     <div>
